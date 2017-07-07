@@ -1,0 +1,53 @@
+body {
+	box-sizing: border-box;
+	margin: 6vh;
+	background: #000;
+	color: #fff;
+	font-family: 'Finger Paint', display;
+	font-size: 50px;
+}
+
+table {
+	table-layout: fixed;
+	min-width: 900px;
+	min-height: 900px;
+	max-height: 1500px;
+	max-width: 1500;
+	margin: 0 auto;
+}
+
+td {
+	width: 34%;
+	background-image: radial-gradient(circle closest-side, #222, #000);
+}
+
+td:hover {
+	background-image: radial-gradient(circle closest-side, #444, #000);
+}
+
+tr {
+	height: 33%;
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	border: none;
+	min-height: 300px;
+	width: 30%;
+	background-image: radial-gradient(circle closest-side, #444, #000);
+	color: #fff;
+	font-family: 'Finger Paint', display;
+	font-size: 2em;
+}
+
+button:focus, button:active {
+	outline: none;
+	pointer-events: auto;
+}
+
+button:hover {
+	background-image: radial-gradient(circle closest-side, #777, #000);
+}
+
+
